@@ -4,7 +4,8 @@ metadata:
   name: customer-orders-service
   description: REST API for customer order management
   annotations:
-    github.com/project-slug: /
+    github.com/project-slug: geethdevops/customer-orders-service
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: geethdevops
