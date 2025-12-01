@@ -103,5 +103,5 @@ jobs:
       - name: Stop & Remove Container
         if: always()
         run: |
-          docker stop raman-customer-orders-service2 || true
-          docker rm raman-customer-orders-service2 || true
+          docker stop customer-orders-service || true
+          docker rm customer-orders-service || true
