@@ -4,6 +4,7 @@ metadata:
   name: geetha-micro
   labels:
     app: geetha-micro
+  namespace: geetha  
 spec:
   replicas: 1
   selector:
